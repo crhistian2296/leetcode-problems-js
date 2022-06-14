@@ -17,7 +17,6 @@ var searchInsert = function (nums, target) {
   if (nums[min] === target) return min;
   else if (nums[max] === target) return max;
   else if (nums[min] > target) return min;
-  // else if (nums[max] > target) return min;
   else return min + 1;
 };
 
